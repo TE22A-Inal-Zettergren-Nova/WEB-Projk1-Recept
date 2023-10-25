@@ -1,33 +1,30 @@
 body{
     font-family: "Roboto Serif";
-    /*background-image: url("img/1000_F_175894294_3NjIJBkKiuNo6x5OPXGU6kxGxCIT6vDz.jpg");
+    background-image: url("img/1000_F_175894294_3NjIJBkKiuNo6x5OPXGU6kxGxCIT6vDz.jpg");
     background-size: contain;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 2fr 1fr;
     display: grid;
 }
 
-h1{
-    font-size: 48px;}
-h2{
-    font-size: 30px;}
+h1{font-size: 48px;}
+h2{font-size: 30px;}
 
 #betyg{
     width: 230px;
     height: auto;
 }
 
-.Textbild{
-    display: flex;
 
-}
+
 aside{
     grid-column: 3;
     grid-row: 1;
-
 }
+
 #brownie{
     width: 250px;
     height: auto;
 }
+
