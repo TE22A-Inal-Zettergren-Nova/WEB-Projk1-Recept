@@ -9,17 +9,21 @@ body{
     column-gap: 20px;
 }
 
-h1{font-size: 50px; font-weight: 900;}
-h2{font-size: 30px;}
+h1{font-size: 50px;}
+h2{font-size: 25px;}
 
-#rubrik,#betyg,nav, main{
+h1, #saker{
+    font-weight: 900;
+}
+#rubrik,#betyg,nav, main, footer{
     border-radius: 15px;
 }
 
-/* Header relaterat*/
-#rubrik, #betyg, .Tid{
+#rubrik,#betyg,nav, main, footer, #tid, .fakta{
     background-color: white;
 }
+
+/* Header relaterat*/
 
 header{
     text-align: center;
@@ -27,9 +31,8 @@ header{
     display: grid;
     grid-row: 1;
     grid-column: 1/3;
-    margin-left: 30px;
-    
 }
+
 #rubrik{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -48,7 +51,6 @@ header{
     margin-right: auto;
 }
 #tid{
-    background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bolder;
@@ -59,9 +61,7 @@ header{
 
 
 /* Aside relaterat*/
-.fakta{
-    background-color: white;
-}
+
 aside{
     grid-column: 3/6;
     flex-direction: row;
@@ -77,19 +77,35 @@ aside{
 nav{
     grid-column: 1/3;
     grid-row: 2;
-    background-color: white;
-    list-style-type: none;
-    margin-top: 5px;
-
+    display: grid;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
 }
 
 .listor{
     display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+#objekten, #antal, #saker{list-style-type: none;}
+
+#ingredienser{
+    width: auto;
+    height: 35px;
+}
+
+#mat{margin-bottom: 15px;}
+
+li{
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 /* Main relaterat*/
 main{
-    background-color: white;
     border-radius: 20px;
     grid-column: 3/6;
     grid-row: 2;
