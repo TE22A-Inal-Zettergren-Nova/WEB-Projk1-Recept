@@ -3,7 +3,9 @@ body{
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr 2fr 1fr;
     display: grid;
-    background-color: aquamarine;
+    background-image: url(img/wooden-texture-background-brown-wood-texture-old-wood-texture-for-add-text-or-work-design-for-backdrop-product-top-view-wood-food-table-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{font-size: 48px;}
@@ -26,5 +28,31 @@ aside{
 #brownie{
     width: 250px;
     height: auto;
+}
+
+nav{
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: white;
+    border-radius: 20px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.listor{
+    display: flex;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    grid-column: 3/4;
+    grid-row: 2;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+#kock{
+    width: 50px;
 }
 
