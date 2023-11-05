@@ -23,6 +23,11 @@ h1, #saker{
     background-color: white;
 }
 
+main, nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* Header relaterat*/
 
 header{
@@ -36,43 +41,53 @@ header{
 #rubrik{
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: -2px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: -7px;
 }
 #betyg{
     width: 300px;
     height: auto;
     padding-bottom: 5px;
     padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 #tid{
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bolder;
-    margin-top: -5px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: -7px;
 }
 
 
-/* Aside relaterat*/
+/* ASIDE RELATERAT*/
 
 aside{
     grid-column: 3/6;
     flex-direction: row;
     display: flex;
+    margin-right: 40px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 17px;
 }
 
 #brownie{
-    width: 250px;
+    width: 290px;
     height: auto;
+    margin-left: 20px;
 }
 
+.fakta{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* Nav relaterat*/
 nav{
     grid-column: 1/3;
@@ -83,7 +98,6 @@ nav{
     text-align: center;
     background-image: url(img/Skärmbild\ 2023-11-04\ 235854.png);
     background-size: cover;
- 
 }
 
 .listor{
@@ -100,7 +114,7 @@ nav{
     height: 35px;
 }
 
-#mat{margin-bottom: 15px;}
+#mat{margin-bottom: 25px; margin-top: -5px;}
 
 li{
     margin-bottom: 40px;
@@ -112,7 +126,6 @@ main{
     border-radius: 20px;
     grid-column: 3/6;
     grid-row: 2;
-    margin-top: 5px;
 }
 
 #kock{
