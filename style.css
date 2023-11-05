@@ -2,7 +2,7 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto Serif', serif;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 70px;
     display: grid;
     background-image: url(img/wooden-texture-background-brown-wood-texture-old-wood-texture-for-add-text-or-work-design-for-backdrop-product-top-view-wood-food-table-free-photo\ \(1\).jpg);
     background-repeat: no-repeat;
@@ -129,7 +129,6 @@ main{
     grid-column: 3/6;
     grid-row: 2;
     margin-right: 40px;
-    
 }
 
 #kock{width: auto; height: 50px; margin-top: 7px; margin-right: 10px;}
@@ -147,6 +146,19 @@ main{
     text-align: center;
     justify-content: center;
     margin-right: 40px;
-   
+}
+
+/* FOOTER RELATERAT*/
+footer{
+    grid-column: 1/6;
+    grid-row: 3;
+    height: 8vh;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
 }
 
