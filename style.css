@@ -16,13 +16,11 @@ h2{font-size: 25px;}
 h1, #saker{
     font-weight: 900;
 }
-#rubrik,#betyg,nav, main, footer{
-    border-radius: 15px;
-}
+#rubrik,#betyg,nav, main, footer{border-radius: 15px;}
 
-#rubrik,#betyg,nav, main, footer, #tid, .fakta{
-    background-color: white;
-}
+#rubrik,#betyg,nav, main, footer, .fakta, #brownie, #tid{border: 1px solid black;}
+
+#rubrik,#betyg,footer, #tid, .fakta, main,nav {background-color: rgb(255, 248, 239);}
 
 main, nav{
     margin-top: 30px;
@@ -97,9 +95,6 @@ nav{
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
-    background-image: url(img/Skärmbild\ 2023-11-04\ 235854.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 .listor{
