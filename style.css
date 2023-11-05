@@ -10,6 +10,7 @@ body{
     column-gap: 20px;
 }
 
+/*Allmäna saker och fonter*/
 h1{font-size: 50px;}
 h2{font-size: 25px;}
 
@@ -75,6 +76,7 @@ aside{
     margin-left: 60px;
     text-align: center;
     font-size: 17px;
+    margin-top: 20px;
 }
 
 #brownie{
@@ -111,7 +113,7 @@ nav{
     height: 35px;
 }
 
-#mat{margin-bottom: 25px; margin-top: -5px;}
+#mat{margin-bottom: 27px; margin-top: -8px;}
 
 #listaNAV{
     margin-bottom: 40px;
@@ -157,3 +159,11 @@ footer{
     font-size: 20px;
 }
 
+/*LÄNKAR*/
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;}
+
+a:hover{color: blue;}
+a:active{color: rgb(163, 12, 223);}
+a:visited{color: rgb(28, 32, 131);}
