@@ -159,9 +159,9 @@ footer{
 
 /*LÄNKAR*/
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(61, 61, 61);
     text-decoration: none;}
 
 a:hover{color: blue;}
 a:active{color: rgb(163, 12, 223);}
-a:visited{color: rgb(53, 54, 77);}
+a:visited{color:rgb(159, 88, 1)}
